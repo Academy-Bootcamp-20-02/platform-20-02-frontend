@@ -1,28 +1,36 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.7.8",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
-    "autoprefixer": "^10.4.8",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5",
-    "postcss": "^8.4.16",
-    "sass": "^1.54.5",
-    "tailwindcss": "^3.1.8",
-    "typescript": "4.7.4"
-  }
+	"name": "course-platform-front-end",
+	"author": {
+		"email": "danilapanarin96@gmail.com",
+		"name": "Danil Panarin (Academy 20/02)",
+		"url": "https://instagram.com/danilapanarin"
+	},
+	"description": "Project for an educational platform.",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "12.2.5",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^3.3.0",
+		"@types/node": "18.7.8",
+		"@types/react": "18.0.17",
+		"@types/react-dom": "18.0.6",
+		"autoprefixer": "^10.4.8",
+		"eslint": "8.22.0",
+		"eslint-config-next": "12.2.5",
+		"postcss": "^8.4.16",
+		"prettier": "^2.7.1",
+		"sass": "^1.54.5",
+		"tailwindcss": "^3.1.8",
+		"typescript": "4.7.4"
+	}
 }
