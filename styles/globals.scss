@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
 html,
 body {
 	font-family: 'Nunito Sans', sans-serif;
+	background-color: #fff;
 }
 
-a {
-	@apply text-shadow;
+input[type='file'],
+input[type='file']::-webkit-file-upload-button {
+	@apply cursor-pointer focus:outline-none;
+}
+
+input:focus {
+	box-shadow: none !important;
 }
